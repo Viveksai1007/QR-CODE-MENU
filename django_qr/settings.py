@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-q&0hh04p6bfu#hr%vh)79a!a2t36p#_qwtfuoilb6+&&%ex10f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = [
     'qr-code-menu.onrender.com',
     'localhost',

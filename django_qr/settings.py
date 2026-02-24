@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-q&0hh04p6bfu#hr%vh)79a!a2t36p#_qwtfuoilb6+&&%ex10f
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['qr-code-menu.onrender.com']
+ALLOWED_HOSTS = [
+    'qr-code-menu.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
 # Application definition
